@@ -1,0 +1,35 @@
+:root {
+    --aws-orange: #ff9900;
+    --aws-dark: #232f3e;
+    --aws-light: #f3f3f3;
+}
+
+.navbar {
+    background-color: var(--aws-dark) !important;
+}
+.navbar-brand, .nav-link {
+    color: var(--aws-orange) !important;
+}
+.home-section {
+    position: relative;
+}
+.carousel-inner img {
+    height: 500px;
+    object-fit: cover;
+}
+.about-section {
+    background-color: var(--aws-light);
+}
+.services-section .card {
+    border: none;
+    transition: transform 0.3s;
+}
+.services-section .card:hover {
+    transform: scale(1.05);
+}
+.contact-section {
+    background-color: var(--aws-orange);
+}
+.footer {
+    background-color: var(--aws-dark);
+}
